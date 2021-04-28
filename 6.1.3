@@ -1,0 +1,9 @@
+sentence = ""
+while sentence != 'q':
+    sentence = input("문자열을 입력하세요(종료는 q) : ")
+    if sentence == 'q':
+        break
+    elif sentence[::-1] == sentence :
+        print("회문입니다.")
+    else:
+        print("회문이 아닙니다.")
